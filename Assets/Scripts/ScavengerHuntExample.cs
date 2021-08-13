@@ -14,7 +14,7 @@ public class ScavengerHuntExample : MonoBehaviour
         {
 
             PauseGame();
-            Interlude.ScavengerHunt.PromptAddress();
+            Interlude.ScavengerHunt.DisplayPrompt();
             firedPrompt = true;
         }
     }

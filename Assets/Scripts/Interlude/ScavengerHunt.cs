@@ -31,7 +31,7 @@ namespace Interlude
             instance.StartCoroutine(instance.FetchKeyAndDisplay(id, password));
         }
 
-        public static void PromptAddress()
+        public static void DisplayPrompt()
         {
             instance.ShowAddressPromptWindow();
         }
