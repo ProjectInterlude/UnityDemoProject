@@ -106,9 +106,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScavengerHuntExample, Assembly-CSharp
-        m_MethodName: ResumeGame
+      - m_Target: {fileID: 434713810531008324}
+        m_TargetAssemblyTypeName: Interlude.ScavengerHunt, Assembly-CSharp
+        m_MethodName: UnpauseGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2013,6 +2013,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Pause:
+    m_PersistentCalls:
+      m_Calls: []
+  Unpause:
+    m_PersistentCalls:
+      m_Calls: []
   canvas: {fileID: 434713809964389772}
   addressPromptAnimator: {fileID: 434713809754160549}
   keyFoundAnimator: {fileID: 434713811073997230}
@@ -4070,9 +4076,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScavengerHuntExample, Assembly-CSharp
-        m_MethodName: ResumeGame
+      - m_Target: {fileID: 434713810531008324}
+        m_TargetAssemblyTypeName: Interlude.ScavengerHunt, Assembly-CSharp
+        m_MethodName: UnpauseGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4242,9 +4248,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScavengerHuntExample, Assembly-CSharp
-        m_MethodName: ResumeGame
+      - m_Target: {fileID: 434713810531008324}
+        m_TargetAssemblyTypeName: Interlude.ScavengerHunt, Assembly-CSharp
+        m_MethodName: UnpauseGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -21,6 +21,8 @@ namespace Interlude
         public UnityEvent OnConnectionError;
         public UnityEvent OnCheckSuccess;
         public UnityEvent OnNullTicket;
+        public UnityEvent Pause;
+        public UnityEvent Unpause;
 
         /***********************
         * Interface
@@ -154,12 +156,14 @@ namespace Interlude
         public TextMeshProUGUI keyText, keyIdText;
         void ShowAddressPromptWindow()
         {
+            Pause.Invoke();
             instance.canvas.SetActive(true);
             addressPromptAnimator.CrossFade("Menu In", 0);
         }
 
         void ShowKeyFoundWindow()
         {
+            Pause.Invoke();
             canvas.SetActive(true);
             keyFoundAnimator.CrossFade("Menu In", 0);
         }
@@ -182,6 +186,11 @@ namespace Interlude
             keyText.text = key.ToString();
             keyIdText.text = id.ToString();
             ShowKeyFoundWindow();
+        }
+
+        public void UnpauseGame()
+        {
+            Unpause.Invoke();
         }
     }
 }
