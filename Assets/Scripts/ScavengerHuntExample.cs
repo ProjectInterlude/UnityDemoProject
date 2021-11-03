@@ -10,7 +10,7 @@ public class ScavengerHuntExample : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!firedPrompt && Time.time > 1)
+        if(!firedPrompt && Time.time > 5)
         {
 
             PauseGame();
@@ -28,6 +28,7 @@ public class ScavengerHuntExample : MonoBehaviour
 
     public void ResumeGame()
     {
+        Debug.Log("resuming");
         Time.timeScale = 1;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;

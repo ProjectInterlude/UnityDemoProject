@@ -106,6 +106,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ScavengerHuntExample, Assembly-CSharp
+        m_MethodName: ResumeGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!225 &261356409
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -746,7 +758,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434713809754160539}
   m_Enabled: 1
-  m_Alpha: 0.96
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -1836,7 +1848,6 @@ GameObject:
   m_Component:
   - component: {fileID: 434713810531008325}
   - component: {fileID: 434713810531008324}
-  - component: {fileID: 1543281082}
   m_Layer: 0
   m_Name: ScavengerHuntManager
   m_TagString: Untagged
@@ -2007,19 +2018,6 @@ MonoBehaviour:
   keyFoundAnimator: {fileID: 434713811073997230}
   keyText: {fileID: 434713810675944929}
   keyIdText: {fileID: 434713810019905619}
---- !u!114 &1543281082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434713810531008327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810eee191fb6bce40b3d2b795409a820, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireDisplayKey: 0
 --- !u!1 &434713810537883394
 GameObject:
   m_ObjectHideFlags: 0
@@ -4072,6 +4070,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ScavengerHuntExample, Assembly-CSharp
+        m_MethodName: ResumeGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 434713810531008324}
         m_TargetAssemblyTypeName: 
         m_MethodName: CloseWindow
@@ -4223,6 +4233,18 @@ MonoBehaviour:
       - m_Target: {fileID: 434713810531008324}
         m_TargetAssemblyTypeName: 
         m_MethodName: CopyKeyToClipboard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ScavengerHuntExample, Assembly-CSharp
+        m_MethodName: ResumeGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

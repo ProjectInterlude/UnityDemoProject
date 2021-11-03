@@ -11,7 +11,7 @@ namespace Interlude
     {
         private static ScavengerHunt instance;
 
-        public string serverIP = "35.193.152.147:8080";
+        public string serverIP = "104.154.68.222:8080";
 
         public TextMeshProUGUI addressInput;
         string address;
@@ -42,6 +42,7 @@ namespace Interlude
         private void Start()
         {
             instance = this;
+            DisplayPrompt();
         }
 
         public void CheckPlayerTicket()
